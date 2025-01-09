@@ -47,7 +47,7 @@ function WeatherApp() {
 
       {weatherData && (
         <div>
-          <h2>Weather in the{city}</h2>
+          <h2>Weather in the {city}</h2>
           <p>Temperature: {weatherData.weather.main.temp}°F</p>
           <p>Feels Like: {weatherData.weather.main.feels_like}°F</p>
           <p>Conditions: {weatherData.weather.weather[0].description}</p>
